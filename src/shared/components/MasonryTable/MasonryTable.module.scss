@@ -1,0 +1,18 @@
+.masonry {
+  --width-column: 240px;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+
+  align-items: center;
+  justify-content: center;
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    width: var(--width-column);
+  }
+}

@@ -1,0 +1,14 @@
+.app {
+    display: flex;
+    flex-direction: column;
+
+    min-height: inherit;
+
+    &__header{
+    
+    }
+
+    &__page{
+        flex: 1;
+    }
+}

@@ -1,0 +1,53 @@
+.header {
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+
+    justify-content: space-between;
+
+    &__left {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5px;
+        align-items: center;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        align-items: center;
+    }
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+
+    padding: 8px;
+    border-radius: 10px;
+    background: var(--color-background);
+
+    &__notification {
+        display: flex;
+        place-items: center;
+
+        transition: all 0.2s ease;
+        cursor: pointer;
+
+        padding: 5px;
+
+        &_icon {
+            width: 24px;
+            height: 24px;
+            color: var(--color-primary);
+        }
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
